@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox - Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">ROBLOX</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <!-- Fixed navigation links to point to correct pages -->
+            <a href="login.html" class="sign-up-btn">Log In</a>
+            <a href="signup.html" class="sign-up-btn">Sign Up</a>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Sign Up Modal -->
+        <div class="signup-modal">
+            <h1>SIGN UP AND START HAVING FUN!</h1>
+
+            <form>
+                <!-- Birthday Section -->
+                <div class="form-section">
+                    <label>Birthday</label>
+                    <div class="birthday-group">
+                        <select class="birthday-select">
+                            <option>Month</option>
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>
+                        <select class="birthday-select">
+                            <option>Day</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                        <select class="birthday-select">
+                            <option>Year</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                            <option>2017</option>
+                            <option>2016</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Username -->
+                <div class="form-section">
+                    <label>Username</label>
+                    <input type="text" placeholder="Don't use your real name" required>
+                </div>
+
+                <!-- Password -->
+                <div class="form-section">
+                    <label>Password</label>
+                    <input type="password" placeholder="At least 8 characters" required>
+                </div>
+
+                <!-- Gender -->
+                <div class="form-section">
+                    <label>Gender (optional)</label>
+                    <div class="gender-group">
+                        <button type="button" class="gender-btn">♂</button>
+                        <button type="button" class="gender-btn">♀</button>
+                    </div>
+                </div>
+
+                <!-- Terms -->
+                <div class="terms">
+                    By clicking Sign Up, you are agreeing to the <a href="#terms">Terms of Use</a> including the
+                    arbitration clause and you are acknowledging the <a href="#privacy">Privacy Policy</a>
+                </div>
+
+                <!-- Sign Up Button -->
+                <button type="submit" class="btn btn-signup">Sign Up</button>
+            </form>
+
+            <!-- App Store Section -->
+            <div class="app-store-section">
+                <h3>Roblox on your Device</h3>
+                <div class="app-buttons">
+                    <button class="app-btn">
+                        <span>Download on the</span>
+                        <strong>App Store</strong>
+                    </button>
+                    <button class="app-btn">
+                        <span>GET IT ON</span>
+                        <strong>Google Play</strong>
+                    </button>
+                    <button class="app-btn">
+                        <strong>PlayStation</strong>
+                    </button>
+                    <button class="app-btn">
+                        <strong>XBOX</strong>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 by Roblox. All rights reserved.
+    </footer>
+</body>
+
+</html>
